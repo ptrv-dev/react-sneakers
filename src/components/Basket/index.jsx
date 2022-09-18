@@ -15,7 +15,7 @@ export const Basket = ({
 
 	useEffect(() => {
 		if (!isBasketOpen && orderId !== 0) setOrderId(0);
-	}, [isBasketOpen]);
+	}, [orderId, isBasketOpen]);
 
 	const order = async () => {
 		const result = await axios.post(

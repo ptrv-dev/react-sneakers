@@ -1,3 +1,4 @@
+import React from "react";
 import { useEffect, useState } from "react";
 import { Routes, Route } from "react-router-dom";
 import { Basket } from "./components/Basket";
